@@ -1,0 +1,10 @@
+fruits=("apple","bannana","grapes")
+fruits=list(fruits)
+fruits.append("orange")
+fruits
+fruits.remove("bannana")
+fruits.sort()
+fruite=tuple(fruits)
+print("My list of fruits:",fruits)
+print("First fruits from the list:",fruits[0])
+print("total fruits:",len(fruits))
